@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil</title>
+  <style>
+    :root {
+      --primary: #4285f4;
+      --secondary: #34a853;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f2f5;
+    }
+    nav {
+      background: white;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .welcome-box {
+      text-align: center;
+      padding: 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      margin: auto;
+      max-width: 500px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #3367d6;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: white;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="login.html">Connexion</a> | 
+    <a href="statistiques.html">Statistiques</a>
+  </nav>
+
+  <div class="welcome-box">
+    <h1>Bienvenue dans notre application</h1>
+    <button class="btn" onclick="location.href='login.html'">Se connecter</button>
+    <button class="btn" onclick="location.href='activites.html'">📅 Activités</button>
+  </div>
+
+  <footer>
+    <p>© 2024 MonApplication - Tous droits réservés</p>
+  </footer>
+</body>
+</html>

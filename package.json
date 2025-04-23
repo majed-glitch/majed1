@@ -1,0 +1,13 @@
+{
+    "name": "centre-activites",
+    "version": "1.0.0",
+    "description": "Application Electron complète avec authentification, jeux et statistiques",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "electron": "^27.0.0"
+    }
+  }
